@@ -22,12 +22,17 @@
 .header-container{
     background-color: var(--dark);
     color: white;
+
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .header-navbar {
     background-color: black;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .header-logo {
@@ -50,12 +55,9 @@
 /* Hero part */
 .header-hero {
     display: flex;
-    margin: 100px;
+    margin-top: 100px;
     align-items: center;
     justify-content: center;
-
-
-    align-items: flex-start;
 }
 
 .header-hero-placeholder {
@@ -76,7 +78,8 @@
 
 .header-hero-left{
     margin: 20px;
-    background-color: black;
+    width: 500px;
+    /* background-color: black; */
 }
 
 .header-hero-main {
@@ -94,9 +97,10 @@
 
 .header-hero-button {
     background-color: #3882f6;
-    padding: 15px 32px;
+    padding: 10px 25px;
     margin: 4px 2px;
     width: 60px;
     height: 20px;
     text-align: center;
+    border-radius: 10px;
 }
